@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url('./1483478.png');
+    background-size: cover;
+    display: flex;
+ align-items: center;
+ align-content: center;
+ justify-content: center;
+ color: white;
+ margin-top: 60px;
+}
+form{
+    width: 30%;
+    height: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 15px;
+    box-shadow:
+    5px 5px 5px rgba(0, 0, 0, 0.3),
+   -5px 5px 5px rgba(0, 0, 0, 0.3),
+    5px -5px 5px rgba(0, 0, 0, 0.3),
+   -5px -5px 5px rgba(0, 0, 0, 0.3);
+
+}
+section{
+    display:grid;
+    align-items: center;
+    align-content: center;
+    margin-top: 10px;
+}
+section input{
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+    padding-left: 10px;
+}
+section label{
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-size: large;
+}
+button{
+    width: 50%;
+    margin-top: 15px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 20%;
+    font-size: large;
+    font-weight: 600;
+    background-color: rgb(16, 131, 177);
+    color: white;
+    align-items: center;
+    align-content: center;
+}
+.account{
+    margin-top: 8px;
+    /* text-decoration: none; */
+}
+.account a{
+    /* text-decoration: none; */
+    color:white;
+    font-size: large;
+}
+.login_container{
+    background-image: url('./1483478.png');
+    background-size: cover;
+    display: flex;
+ align-items: center;
+ align-content: center;
+ justify-content: center;
+ color: white;
+ margin-top: 150px;
+}
+.login_container input{
+    width: 100%;
+    border-radius: 5px;
+}
